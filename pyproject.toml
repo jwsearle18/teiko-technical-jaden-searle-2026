@@ -1,0 +1,13 @@
+[project]
+name = "teiko-technical"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "adbc-driver-sqlite>=1.10.0",
+    "plotly>=6.5.2",
+    "polars>=1.38.1",
+    "scipy>=1.17.0",
+    "sqlalchemy>=2.0.46",
+    "streamlit>=1.54.0",
+]
